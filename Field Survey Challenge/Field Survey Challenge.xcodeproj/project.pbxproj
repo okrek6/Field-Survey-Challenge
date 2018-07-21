@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E22370C72102A087004D051E /* ClassificationObservationJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22370C62102A087004D051E /* ClassificationObservationJSONLoader.swift */; };
+		E22370C92102BCF7004D051E /* ObservationClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22370C82102BCF7004D051E /* ObservationClassificationViewController.swift */; };
+		E22370CB2102BD6A004D051E /* ObservationClassificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22370CA2102BD6A004D051E /* ObservationClassificationDetailViewController.swift */; };
+		E22370CD2102D756004D051E /* ClassificationObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22370CC2102D756004D051E /* ClassificationObservationTableViewCell.swift */; };
 		E292756421003FCC0058EDD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E292756321003FCC0058EDD9 /* AppDelegate.swift */; };
 		E292756921003FCC0058EDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E292756721003FCC0058EDD9 /* Main.storyboard */; };
 		E292756B21003FCE0058EDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E292756A21003FCE0058EDD9 /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		E22370C62102A087004D051E /* ClassificationObservationJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationObservationJSONLoader.swift; sourceTree = "<group>"; };
+		E22370C82102BCF7004D051E /* ObservationClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationClassificationViewController.swift; sourceTree = "<group>"; };
+		E22370CA2102BD6A004D051E /* ObservationClassificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationClassificationDetailViewController.swift; sourceTree = "<group>"; };
+		E22370CC2102D756004D051E /* ClassificationObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationObservationTableViewCell.swift; sourceTree = "<group>"; };
 		E292756021003FCC0058EDD9 /* Field Survey Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E292756321003FCC0058EDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E292756821003FCC0058EDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,12 +111,15 @@
 		E292756221003FCC0058EDD9 /* Field Survey Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				E22370C82102BCF7004D051E /* ObservationClassificationViewController.swift */,
 				E29275912100686E0058EDD9 /* Model */,
 				E292756321003FCC0058EDD9 /* AppDelegate.swift */,
 				E292756721003FCC0058EDD9 /* Main.storyboard */,
 				E292756A21003FCE0058EDD9 /* Assets.xcassets */,
 				E292756C21003FCE0058EDD9 /* LaunchScreen.storyboard */,
 				E292756F21003FCE0058EDD9 /* Info.plist */,
+				E22370CA2102BD6A004D051E /* ObservationClassificationDetailViewController.swift */,
+				E22370CC2102D756004D051E /* ClassificationObservationTableViewCell.swift */,
 			);
 			path = "Field Survey Challenge";
 			sourceTree = "<group>";
@@ -277,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22370CB2102BD6A004D051E /* ObservationClassificationDetailViewController.swift in Sources */,
 				E292759921006CE20058EDD9 /* ClassificationObservation.swift in Sources */,
+				E22370CD2102D756004D051E /* ClassificationObservationTableViewCell.swift in Sources */,
+				E22370C92102BCF7004D051E /* ObservationClassificationViewController.swift in Sources */,
 				E292756421003FCC0058EDD9 /* AppDelegate.swift in Sources */,
 				E292759721006A560058EDD9 /* Classifications.swift in Sources */,
 				E292759B2100787C0058EDD9 /* ClassificationObservationJSONParser.swift in Sources */,
